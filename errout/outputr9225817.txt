@@ -1,0 +1,5 @@
+job started
+r04c14.bullx
+Wed Nov 17 08:45:23 EET 2021
+job done
+Wed Nov 17 11:18:26 EET 2021

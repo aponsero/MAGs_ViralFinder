@@ -1,2 +1,2 @@
 # MAGs_ViralFinder
-Pipeline for the detection and characterization of prophages sequences in genomes and MAGs
+Parallelized pipeline (SLURM scheduler) for MAGs viral detection and characterization
