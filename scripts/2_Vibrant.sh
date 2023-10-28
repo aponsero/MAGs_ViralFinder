@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --job-name=VirSorter
-#SBATCH --account=project_2001503
+#SBATCH --account=
 #SBATCH --output=errout/outputr%j.txt
 #SBATCH --error=errout/errors_%j.txt
 #SBATCH --partition=small
