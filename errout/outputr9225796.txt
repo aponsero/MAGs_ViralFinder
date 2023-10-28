@@ -1,5 +1,0 @@
-job started
-r07c17.bullx
-Wed Nov 17 08:45:38 EET 2021
-job done
-Wed Nov 17 16:02:49 EET 2021

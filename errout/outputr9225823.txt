@@ -1,5 +1,0 @@
-job started
-r15c44.bullx
-Wed Nov 17 08:45:23 EET 2021
-job done
-Wed Nov 17 16:31:31 EET 2021
