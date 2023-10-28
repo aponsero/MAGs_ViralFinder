@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --job-name=install
-#SBATCH --account=project_2001503
+#SBATCH --account=
 #SBATCH --output=outputr%j.txt
 #SBATCH --error=errors_%j.txt
 #SBATCH --partition=small
@@ -17,24 +17,24 @@ source ../config/config.sh
 
 # create environment
 source $CONDA/etc/profile.d/conda.sh
-#conda create -n viral -c conda-forge -c bioconda virsorter=2
+conda create -n viral -c conda-forge -c bioconda virsorter=2
 conda activate viral
-#conda install -c bioconda prodigal
-#conda install -c bioconda hmmer
-#conda install -c conda-forge biopython
-#conda install -c anaconda pandas
-#conda install matplotlib
-#conda install seaborn
-#conda install -c anaconda numpy
-#conda install scikit-learn
-#conda install -c bioconda vibrant==1.2.0
+conda install -c bioconda prodigal
+conda install -c bioconda hmmer
+conda install -c conda-forge biopython
+conda install -c anaconda pandas
+conda install matplotlib
+conda install seaborn
+conda install -c anaconda numpy
+conda install scikit-learn
+conda install -c bioconda vibrant==1.2.0
 
 # Virsorter database 
 #conda activate viral
-#cd /scratch/project_2001503/alise/my_data/databases
-#virsorter setup -d db -j 4
+cd /scratch/project_2001503/alise/my_data/databases
+virsorter setup -d db -j 4
 
 # Vibrant database
-conda activate viral
+#conda activate viral
 download-db.sh
 
